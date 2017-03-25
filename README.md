@@ -48,7 +48,7 @@ Uses AOP to enforce the following authorization and retry policies,
 ![Alt Text](https://github.com/nilamdeka23/Aspect/blob/master/gif/AOP.gif)
 
 ### Reading
-Took inspiration from an [IEEE publication](http://ieeexplore.ieee.org/document/5234317/)  
+Took inspiration from an [IEEE publication](http://ieeexplore.ieee.org/document/5234317/).
 
 
     

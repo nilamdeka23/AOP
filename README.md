@@ -3,7 +3,7 @@ A project to implement the retry and authorization concerns for a profile servic
 
 The profile service allows access to and sharing of profiles. One can share his profile with others, and can share with others the profiles he is shared with too.
 
-The profile service is defined as follows:
+The profile service is defined as follows,
 ```java
 
 public interface ProfileService { 

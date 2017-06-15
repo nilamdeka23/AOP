@@ -1,4 +1,4 @@
-# Retry-Auth using AOP
+# Retry-Auth AOP
 A project to implement the retry and authorization concerns for a profile service through Aspect Oriented Programming (AOP).
 
 The profile service allows access to and sharing of profiles. One can share his profile with others, and can share with others the profiles he is shared with too.

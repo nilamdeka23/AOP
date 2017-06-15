@@ -1,4 +1,4 @@
-# AOP
+# Retry-Auth AOP
 A project to implement the retry and authorization concerns for a profile service through Aspect Oriented Programming (AOP).
 
 The profile service allows access to and sharing of profiles. One can share his profile with others, and can share with others the profiles he is shared with too.
@@ -44,7 +44,7 @@ Uses AOP to enforce the following authorization and retry policies,
 5. All the methods in ProfileService can also run into network failures, in which case, an **NetworkException**  will be thrown, and the method takes no effect at all. Actually, since network failure happens relatively frequently, the feature is to automatically retry for up to two times for a network failure (indicated by an NetworkException). 
    ###### Note: the two retries are in addition to the original failed invocation; if you still encounter NetworkException on your second retry, you should throw out this NetworkException so that the caller knows its occurrence.
  
-### Sample Run
+### How to run this app?
 ![Alt Text](https://github.com/nilamdeka23/Aspect/blob/master/gif/AOP.gif)
 
 ### Reading
